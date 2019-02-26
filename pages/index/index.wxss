@@ -1,0 +1,31 @@
+/**index.wxss**/
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.container>view{
+  display: flex;
+}
+.container>view input{
+  border: 1px solid #333;
+}
+.container>view button{
+  line-height: 28px;
+  font-size: 12px;
+}
+.container>view .place{
+  font-size: 12px;
+  color:blue;
+}
+.ul{
+  display: flex;
+  flex-direction: column;
+}
+.li{
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  margin-top: 10px;
+  line-height: 30px;
+  border-bottom: 1px dotted #333;
+}
